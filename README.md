@@ -35,16 +35,10 @@ This repository provides a Python-based implementation of both TCP and UDP chat 
 ## Requirements
 
 - Python 3.7 or later.
-- Standard Python libraries (`socket`, `threading`, `select`).
+- Standard Python libraries (`socket`, `threading`).
 
 ---
 
 ## Usage
 
-### 1. Running the TCP Server
-```python
-from your_file_name import ServerTCP
-
-# Specify the port number
-server = ServerTCP(server_port=12345)
-server.run()
+Use the serverTCP.py and clientTCP.py to run the TCP chatroom, and the serverUDP.py and clientUDP.py to run the UDP chatroom.
